@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2>Contáctenos</h2>
+        <form action="enviar.php" id="Contacto">
+            <fieldset>
+                <legend>Información personal</legend>
+                <label for="nombre" class="textBlock">Nombre y Apellido:</label>
+                <input type="text" name="nombre" id="nombre" required placeholder="Juan Perez">
+                <label for="email" class="textBlock">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="email@mail.com">
+                <label for="telefono" class="textBlock">Telefóno:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+            </fieldset>  
+            <label for="Consulta">Consulta</label>
+            <textarea name="Consulta" id="Consulta" cols="30" rows="10">Esta es su consulta</textarea>
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="Enviar">
+        </form>
+    </main>  
+    <script src="../main.js"></script> 
+</body>
+</html>

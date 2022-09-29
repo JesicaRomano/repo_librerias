@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <h1 id="welcome"></h1>
+    <h2>En <strong>Finance</strong> valoramos su confianza en nosotros y cuidamos de sus ahorros.</h2>
+    <p>Nos caracterizamos por nuestra seguridad, compromiso y en las distintas alternativas que brindamos a la hora de invertir.</p>
+    <h3>Contáctese con nuestros asesores para que lo registren y pueda comenzar a invertir <a href="./pages/Contacto.html">Contacto</a></h3>
+    <div>
+        <canvas id="bono"></canvas>
+    </div>
+
+    <h2>Aplicacion de inversiones</h2>
+
+    <h3 id="tipo">Desplegar la lista para ver las inversiones que puede realizar</h3>
+
+    <form id="formulario-usuario">
+        <label for="user">Ingrese nombre de usuario que realizara la inversión</label>
+        <input type="text" id="user" placeholder="Nombre">
+        <input type="submit" value="Buscar">
+    </form>
+
+    <hr>
+
+    <div id="opciones"></div>
+    <ul id="listadodeInversiones"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.35/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
